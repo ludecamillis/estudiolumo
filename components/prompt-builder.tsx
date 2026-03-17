@@ -3,10 +3,10 @@
 import { useState, useCallback } from "react"
 // Link component imported from next/link as NextLink to avoid naming conflicts
 import NextLink from "next/link"
-import { Button } from "@/components/ui/button"
-import { Input } from "@/components/ui/input"
-import { Textarea } from "@/components/ui/textarea"
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
+import { Button } from "./ui/button"
+import { Input } from "./ui/input"
+import { Textarea } from "./ui/textarea"
+import { Card, CardContent, CardHeader, CardTitle } from "./ui/card"
 import {
   Select,
   SelectContent,
@@ -15,8 +15,8 @@ import {
   SelectLabel,
   SelectTrigger,
   SelectValue,
-} from "@/components/ui/select"
-import { Field, FieldGroup, FieldLabel } from "@/components/ui/field"
+} from "./ui/select"
+import { Field, FieldGroup, FieldLabel } from "./ui/field"
 import { Upload, X, Copy, Check, Sparkles, Save, BookmarkCheck } from "lucide-react"
 import { StyleLibrary } from "./style-library"
 import { UserMenu } from "./user-menu"

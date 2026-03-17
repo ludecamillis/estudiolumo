@@ -22,6 +22,6 @@ export function SelectTrigger({ children }: any) {
   return <>{children}</>
 }
 
-export function SelectValue() {
-  return null
+export function SelectValue({ children }: any) {
+  return <>{children}</>
 }
